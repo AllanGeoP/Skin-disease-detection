@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2"
+    tools:context=".Register">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:gravity="center"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            android:textSize="40dp"
+            android:textColor="#31AEE8"
+
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Name"
+            android:gravity="center"
+            android:inputType="text"
+            android:background="@drawable/custombutton"
+            android:textColorHint="#FFFBF6"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Address"
+            android:inputType="textMultiLine"
+            android:background="@drawable/custombutton"
+            android:textColorHint="#FFFBF6"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/custombutton"
+            android:textColorHint="#FFFBF6"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Phone"
+            android:inputType="phone"
+            android:background="@drawable/custombutton"
+            android:textColorHint="#FFFBF6"
+            android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextheight"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="Height"
+        android:inputType="phone"
+        android:background="@drawable/custombutton"
+        android:textColorHint="#FFFBF6"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/editTextweight"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:hint="Weight"
+        android:inputType="phone"
+        android:background="@drawable/custombutton"
+        android:textColorHint="#FFFBF6"
+        android:layout_marginBottom="16dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextage"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:hint="Age"
+            android:inputType="phone"
+            android:background="@drawable/custombutton"
+            android:textColorHint="#FFFBF6"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="16sp"
+            android:textColor="#31AEE8"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="8dp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="430dp"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="14sp"
+                android:layout_marginLeft="90dp"
+                android:textColor="#31AEE8"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="14sp"
+                android:textColor="#31AEE8"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other"
+                android:textSize="14sp"
+                android:textColor="#31AEE8"/>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editTextpassword"
+            android:layout_width="250dp"
+            android:gravity="center"
+            android:layout_height="40dp"
+            android:hint="Password"
+            android:background="@drawable/custombutton"
+            android:textColorHint="#FFFBF6"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/buttonRegister"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#FFFBF6"
+            android:background="@drawable/custombutton2"
+            android:layout_marginTop="24dp"/>
+
+        <TextView
+            android:id="@+id/already"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login here "
+            android:textColor="#FFFBF6"
+            android:hint="#FFFBF6"
+            android:layout_marginTop="15dp"
+            android:buttonTint="#FFFBF6"
+            />
+
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>

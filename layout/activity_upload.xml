@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Detected Disease"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/diseaseTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Detected Disease"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/probTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:text="Detected Disease"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="?android:attr/listDivider" />
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="30dp"-->
+<!--                    android:fontFamily="sans-serif"-->
+<!--                    android:gravity="center"-->
+<!--                    android:text="UPLOAD"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textSize="50dp"-->
+<!--                    android:textStyle="bold"></TextView>-->
+
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="90dp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:src="@drawable/upload">-->
+
+<!--                </ImageView>-->
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:orientation="vertical"
+                        android:padding="16dp">
+
+                        <TextView
+                            android:id="@+id/td"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            android:textStyle="bold|normal" />
+
+                        <!--                <TextView-->
+                        <!--                    android:id="@+id/td1"-->
+                        <!--                    android:layout_width="match_parent"-->
+                        <!--                    android:layout_height="wrap_content"-->
+                        <!--                    android:layout_marginTop="50dp"-->
+                        <!--                    android:hint="Hospital"-->
+                        <!--                    android:textSize="18sp" />-->
+
+                        <!--                <TextView-->
+                        <!--                    android:id="@+id/td2"-->
+                        <!--                    android:layout_width="match_parent"-->
+                        <!--                    android:layout_height="wrap_content"-->
+                        <!--                    android:layout_marginTop="50dp"-->
+                        <!--                    android:hint="Department"-->
+                        <!--                    android:textSize="18sp" />-->
+
+                        <!--                <EditText-->
+                        <!--                    android:id="@+id/td3"-->
+                        <!--                    android:layout_width="match_parent"-->
+                        <!--                    android:layout_height="wrap_content"-->
+                        <!--                    android:layout_marginTop="30dp"-->
+                        <!--                    android:hint="Phone"-->
+                        <!--                    android:textColor="@color/black"-->
+                        <!--                    android:textSize="20sp"-->
+                        <!--                    android:textStyle="bold|normal" />-->
+
+                        <TextView
+                            android:id="@+id/td2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="30dp"
+                            android:hint="Phonenumber"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:textStyle="bold|normal" />
+
+
+
+                        <Button
+                            android:id="@+id/moreinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Consult a Docter"
+                            android:layout_marginTop="60dp"/>
+
+                        <Button
+                            android:id="@+id/care"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Skin Care Tips"
+                            android:layout_marginTop="60dp"/>
+
+
+                        <Button
+                            android:id="@+id/feedbackk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Feedback"
+                            android:layout_marginTop="60dp"/>
+
+                        <!--        <LinearLayout-->
+                        <!--            android:layout_width="200dp"-->
+                        <!--            android:layout_height="wrap_content"-->
+                        <!--            android:orientation="horizontal">-->
+
+                        <!--          <TextView-->
+                        <!--              android:layout_width="50dp"-->
+                        <!--              android:layout_height="wrap_content"-->
+                        <!--              android:layout_marginLeft="20dp"-->
+                        <!--              android:text="Time:"-->
+                        <!--              android:textColor="@color/olivegreen"-->
+                        <!--              android:textSize="16dp" />-->
+
+                        <!--          <EditText-->
+                        <!--              android:id="@+id/td516"-->
+                        <!--              android:layout_width="match_parent"-->
+                        <!--              android:layout_height="50dp"-->
+                        <!--              android:drawableStart="@drawable/ic_baseline_access_time_24"-->
+                        <!--              android:focusable="false"-->
+                        <!--              android:paddingStart="15dp"-->
+                        <!--              android:paddingLeft="15dp"-->
+                        <!--              android:paddingEnd="5dp"-->
+                        <!--              android:textColor="@color/black"-->
+                        <!--              android:textColorHint="@color/black"-->
+                        <!--              android:textSize="16sp" />-->
+
+
+                        <!--        </LinearLayout>-->
+
+<!--                        <Button-->
+<!--                            android:id="@+id/td6"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginLeft="30dp"-->
+<!--                            android:layout_marginTop="16dp"-->
+<!--                            android:background="@drawable/custombutton2"-->
+<!--                            android:text="Upload a Photo" />-->
+                    </LinearLayout>
+
+
+                </ScrollView>
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

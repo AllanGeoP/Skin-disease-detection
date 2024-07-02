@@ -1,0 +1,10 @@
+0 Acne and Rosacea Photos
+1 Actinic Keratosis Basal Cell Carcinoma and other M
+2 Atopic Dermatitis Photos
+3 Bullous Disease Photos
+4 Cellulitis Impetigo and other Bacterial Infections
+5 Eczema Photos
+6 Exanthems and Drug Eruptions
+7 Hair Loss Photos Alopecia and other Hair Diseases
+8 Herpes HPV and other STDs Photos
+9 Light Diseases and Disorders of Pigmentation

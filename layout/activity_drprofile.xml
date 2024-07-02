@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_2"
+    tools:context=".drprofile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#3fff"
+            android:gravity="center"
+            android:padding="10dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/docbuttonRegister1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="#FFFBF6"
+                android:background="@drawable/custombutton2"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="120dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textSize="40dp"
+                android:textColor="#31AEE8"
+
+                android:layout_marginBottom="24dp"/>
+
+            <EditText
+                android:id="@+id/doceditTextName1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:gravity="center"
+                android:inputType="text"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/doceditTextEmail1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/doceditTextPhone1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/doceditTextheight1"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="Specialization"
+                android:inputType="phone"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+
+
+            <EditText
+                android:id="@+id/doceditTextpassword1"
+                android:layout_width="250dp"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:hint="Password"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

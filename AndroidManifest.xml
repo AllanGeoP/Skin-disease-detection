@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/bg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkinD"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".hctfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".hct"
+            android:exported="false" />
+        <activity
+            android:name=".DocChatsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".docfull"
+            android:exported="false" />
+        <activity
+            android:name=".drlist"
+            android:exported="false" />
+        <activity
+            android:name=".doclist"
+            android:exported="false" />
+        <activity
+            android:name=".docprofile"
+            android:exported="false" />
+        <activity
+            android:name=".drprofile"
+            android:exported="false" />
+        <activity
+            android:name=".dochome"
+            android:exported="false" />
+        <activity
+            android:name=".docregistraion"
+            android:exported="false" />
+        <activity
+            android:name=".doclogin"
+            android:exported="false" />
+        <activity
+            android:name=".chooseuser"
+            android:exported="false" />
+        <activity
+            android:name=".LiveChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Find_hospital"
+            android:exported="false" />
+        <activity
+            android:name=".blogfullactivity"
+            android:exported="false" />
+        <activity
+            android:name=".upload"
+            android:exported="false" />
+        <activity
+            android:name=".newpassword"
+            android:exported="false" />
+        <activity
+            android:name=".Forgotpassword"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false"
+            android:label="@string/title_activity_home">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:label="Chat">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

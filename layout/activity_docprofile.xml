@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_1"
+    tools:context=".docprofile">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#3fff"
+            android:gravity="center"
+            android:padding="10dp"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/buttonRegister223"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textColor="#FFFBF6"
+                android:background="@drawable/custombutton2"
+                android:layout_marginLeft="100dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Id Card"
+                android:textSize="40dp"
+                android:textColor="@color/black"
+
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Username"
+                android:layout_marginLeft="40dp"/>
+
+            <EditText
+                android:id="@+id/editTextName223"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Name"
+                android:gravity="center"
+                android:inputType="text"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Name"
+                android:layout_marginLeft="40dp"/>
+
+            <EditText
+                android:id="@+id/editTextdistrict223"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:hint="Email"
+                android:gravity="center"
+                android:inputType="text"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Email"
+                android:layout_marginLeft="40dp"/>
+
+
+
+            <EditText
+                android:id="@+id/editTextArea223"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="Phone"
+                android:inputType="textMultiLine"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Phone"
+                android:layout_marginLeft="40dp"/>
+
+
+            <EditText
+                android:id="@+id/editTextward223"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="Specialization"
+                android:inputType="textMultiLine"
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Specialization"
+                android:layout_marginLeft="40dp"/>
+
+
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/editTextEmail223"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="Email"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:background="@drawable/custombutton"-->
+<!--                android:textColorHint="#FFFBF6"-->
+<!--                android:layout_marginBottom="16dp"/>-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/olivegreen"-->
+<!--                android:text="PhoneNumber"-->
+<!--                android:layout_marginLeft="40dp"/>-->
+
+
+<!--            <EditText-->
+<!--                android:id="@+id/editTextPhone223"-->
+<!--                android:layout_width="250dp"-->
+<!--                android:layout_height="40dp"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="Phone"-->
+<!--                android:inputType="phone"-->
+<!--                android:background="@drawable/custombutton"-->
+<!--                android:textColorHint="#FFFBF6"-->
+<!--                android:layout_marginBottom="16dp"/>-->
+
+<!--            &lt;!&ndash;        <EditText&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:id="@+id/editTextworkingexperience2"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_width="250dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_height="40dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:inputType="number"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:hint="Working Experience"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:background="@drawable/custombutton"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:textColorHint="#FFFBF6"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_marginBottom="16dp"/>&ndash;&gt;-->
+
+<!--            &lt;!&ndash;        <EditText&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:id="@+id/editTextaddnotes2"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_width="250dp"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:gravity="center"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_height="40dp"&ndash;&gt;-->
+
+<!--            &lt;!&ndash;            android:hint="Add notes"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:background="@drawable/custombutton"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:textColorHint="#FFFBF6"&ndash;&gt;-->
+<!--            &lt;!&ndash;            android:layout_marginBottom="16dp"/>&ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textColor="@color/olivegreen"-->
+<!--                android:text="Password"-->
+<!--                android:layout_marginLeft="40dp"/>-->
+
+
+            <EditText
+                android:id="@+id/editTextpassword223"
+                android:layout_width="250dp"
+                android:gravity="center"
+                android:layout_height="40dp"
+                android:hint="Password"
+
+                android:background="@drawable/custombutton"
+                android:textColorHint="#FFFBF6"
+                android:layout_marginBottom="16dp"/>
+
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/already22"-->
+            <!--            android:layout_width="wrap_content"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:text="Login here "-->
+            <!--            android:textColor="@color/olivegreen"-->
+            <!--            android:hint="#FFFBF6"-->
+            <!--            android:layout_marginTop="15dp"-->
+            <!--            android:buttonTint="#FFFBF6"-->
+            <!--            />-->
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
